@@ -96,6 +96,7 @@ public class MyProgram {
 
         // Simple interest using user input
 
+       /*
         int principalAmount;
         int percentageRate;
         float time;
@@ -112,6 +113,44 @@ public class MyProgram {
         System.out.println("Simple interest is"+simpleInterest);
         totalAmount=principalAmount+simpleInterest;
         System.out.println("Total amount is"+totalAmount);
+
+        */
+
+            // Right side triangle pattern
+        /*
+       int i, j, row=6;
+       for (i=0; i<row; i++)
+        {
+
+            for (j=0; j<=i; j++)
+            {
+                System.out.print("*  ");
+            }
+            System.out.println();
+        }
+
+         */
+
+        // Left side star pattern
+        /*
+        int i,j, row=6;
+        for (i=0; i<row; i++)
+        {
+            for(j=2*(row-i); j>=0; j--)
+            {
+                System.out.print(" ");
+            }
+
+            for(j=0; j<=i; j++)
+                System.out.print("* ");
+            {
+                System.out.println();
+            }
+        }
+
+         */
+
+
 
     }
 }
