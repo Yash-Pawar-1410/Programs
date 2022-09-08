@@ -1,5 +1,7 @@
 import java.*;
+import java.util.Locale;
 import java.util.Scanner;
+import java.math.BigInteger;
 
 public class MyProgram {
     public static void main(String[] args) {
@@ -116,39 +118,29 @@ public class MyProgram {
 
         */
 
-            // Right side triangle pattern
-        /*
-       int i, j, row=6;
-       for (i=0; i<row; i++)
-        {
+// STRING METHODS
 
-            for (j=0; j<=i; j++)
-            {
-                System.out.print("*  ");
-            }
-            System.out.println();
-        }
 
-         */
-
-        // Left side star pattern
-        /*
-        int i,j, row=6;
-        for (i=0; i<row; i++)
-        {
-            for(j=2*(row-i); j>=0; j--)
-            {
-                System.out.print(" ");
-            }
-
-            for(j=0; j<=i; j++)
-                System.out.print("* ");
-            {
-                System.out.println();
-            }
-        }
-
-         */
+       String name="Yash Pawar";
+        //System.out.println(name.length());              // 10
+        //System.out.println(name.toLowerCase());         //yash pawar
+        //System.out.println(name.toUpperCase());         //YASH PAWAR
+        //String chs="    Yash Pawar   ";
+        //System.out.println(chs.trim());                  // Yash Pawar
+        //System.out.println(name.substring(1));           //ash Pawar
+        //System.out.println(name.substring(2,6));         //sh P
+        //System.out.println(name.replace('Y','P'));        //Pash Pawar
+        //System.out.println(name.startsWith("Ya"));        // it gives true
+        //System.out.println(name.startsWith("pa"));        // it gives false
+        //System.out.println(name.endsWith("ar"));          // it gives true
+        //System.out.println(name.endsWith("pa"));          // it gives false
+        //System.out.println(name.charAt(2));               //s
+        //System.out.println(name.indexOf('Y'));            //0
+        //System.out.println(name.indexOf("a",2));          //6
+        //System.out.println(name.lastIndexOf("ar"));       //8
+        //System.out.println(name.equals("Yash Pawar"));            // it gives true
+        //System.out.println(name.equals("Yash"));                   // it gives false
+        //System.out.println(name.equalsIgnoreCase("Yash Pawar"));  //true
 
 
 

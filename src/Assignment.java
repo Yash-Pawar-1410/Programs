@@ -36,11 +36,13 @@ public class Assignment {
         }
          */
 
-// Assignment 3 (print the following pattern on the screen  *****
+// Assignment 3 (print the following pattern on the screen          *****
         //                                                           ***
         //                                                            *
         //                                                           ***
         //                                                          *****)
+
+        // Without loop
         /*
         System.out.println("*****");
         System.out.println(" ***");
@@ -48,6 +50,40 @@ public class Assignment {
         System.out.println(" ***");
         System.out.println("*****");
         */
+
+        // With loop
+        /*
+        int i,j,k,row=3;
+        for (i=0; i<=row-1; i++)
+        {
+            for (j=0; j<i; j++)
+            {
+                System.out.print(" ");
+            }
+            for (k=i; k<=row-1; k++)
+            {
+                System.out.print("*" + " ");
+            }
+            System.out.println("");
+        }
+
+
+        for (i=row-2; i>=0; i--)
+        {
+            for (j=0; j<i; j++)
+            {
+                System.out.print(" ");
+            }
+            for (k=i; k<=row-1; k++)
+            {
+                System.out.print("*"+" ");
+            }
+            System.out.println("");
+        }
+
+         */
+
+
 
 // Assignment 4 (Write a program to print the sum of the numbers 2,4 and 5)
       /*
@@ -135,11 +171,11 @@ public class Assignment {
 
 // Assignment 6 (Write a program to add 3 to the ASCII value of the cha 'd' and print the equivalent char)
 
-        /*
+
         int ch='d'+3;
         System.out.println(ch);
         System.out.println((char)ch);
-         */
+
 
 // Assignment 7 (Write a program to add an integer variable having value 5 and a double variable having value 6.2)
         /*
